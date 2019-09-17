@@ -1,0 +1,15 @@
+MVC:
+Model => App\"nameM".php
+View => resources\views
+Controller => App\Http\Controller\"nameC".php
+
+3shan arbot ben al Model w Controller h7tag al Route
+Route => routes ya (api.php, web.php)
+
+
+
+php artisan make:model "nameM" -a //=all
+//all e3ni he3mli kol al files aly mtloba (model ,file f controller be al resources bt3tha, file f factory, file f migration)
+php artisan make:controller "nameC" --resources
+php artisan make:migration create_table_name 
+php artisan make:factory myfactory -m "App\nameM"
